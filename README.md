@@ -44,3 +44,17 @@ npm start
 | EMBEDDING_MODEL | 嵌入模型名称 (默认: BAAI/bge-m3) |
 
 ### 项目结构
+```
+llm-customer-service/
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── rag_chain.py
+│   │   ├── config.py
+│   │   ├── logging.conf
+│   ├── requirements.txt
+│   ├── Dockerfile
+├── frontend/
+│   ├── public/
+│   ├── src/
